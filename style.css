@@ -302,7 +302,7 @@ body {
 
 .bg-footer {
     width: 100%;
-    margin-bottom: -5px;
+    margin-bottom: -6px;
 }
 
         /* ========
@@ -399,13 +399,14 @@ footer p {
     filter: invert(0.4) sepia(1) saturate(20) hue-rotate(180deg) brightness(0.91);
 }
 
-.attribution {
-    background-color: #00252E;
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin: -3em 0 -2em 0; 
     color: white;
-    padding-top: 2em;
-    margin-top: -2em;
+    
 }
-.attribution { font-size: 11px; text-align: center; margin: 2em 0 -2em 0; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
 @media (min-width:851px) {
