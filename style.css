@@ -68,14 +68,18 @@ body {
     margin: 0;
     border: 1px solid hsl(322, 100%, 66%);
     border-radius: 2rem;
-    box-shadow: 1px -1px 5px 1px hsl(325, 52%, 92%) ;
+    box-shadow: 2px -2px 5px hsl(324, 37%, 83%) ;
     padding: 0 2em;
     font-size: .5rem;
     height: 1.5rem;
 }
 
+
+
 .free-btn:hover {
     opacity: .4;
+    box-shadow: ;
+    transition: 0.3s;
 }
 
 .front-title {
@@ -107,12 +111,14 @@ body {
     color: white;
     padding: .8em 2.5em;
     border-radius: 2rem;
-    box-shadow: 2px 2px 2px hsl(325, 18%, 87%);
+    box-shadow: 3px 3px 2px hsl(326, 21%, 94%);
     opacity: .9;
 }
 
 .started-link:hover {
-    opacity: .5;
+    opacity: .7;
+    box-shadow: 3px 3px 2px hsl(324, 18%, 68%);
+    transition: 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
         /* =========
             MAIN
@@ -461,9 +467,10 @@ footer p {
         width: 24rem;
         height: 4.5rem;
         margin: 1em auto;
-        font-size: 1.1rem;
-       padding-top: 1.3em;
-       border-radius: 4rem;
+        font-size: 1.2rem;
+        font-weight: 600;
+        padding-top: 1.3em;
+        border-radius: 4rem;
     }
 
             /* ========
