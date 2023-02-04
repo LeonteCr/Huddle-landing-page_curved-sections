@@ -423,7 +423,7 @@ footer p {
 
 @media (min-width:851px) {
     body {
-        padding: 4rem 0 0 0;
+        padding: 5rem 0 0 0;
     }
 
             /*====== 
@@ -460,7 +460,7 @@ footer p {
         display: inline-block;
         width: 24rem;
         height: 4.5rem;
-        margin: 2em auto;
+        margin: 1em auto;
         font-size: 1.1rem;
        padding-top: 1.3em;
        border-radius: 4rem;
