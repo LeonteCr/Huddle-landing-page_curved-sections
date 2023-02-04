@@ -405,7 +405,8 @@ footer p {
     text-align: center; 
     margin: -3em 0 -2em 0; 
     color: white;
-    
+    padding: 2em 0;
+    background-color: #00252E;
 }
 .attribution a { color: hsl(228, 45%, 44%); }
 
