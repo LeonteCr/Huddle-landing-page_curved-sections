@@ -330,10 +330,10 @@ form {
     font-size: 1.2rem;
 }
 
-.text:required:invalid {
-    border: 1px solid red;
+.text-email input:invalid {
+    outline:2px solid red;
 }
-
+    
 .btn-subs {
     font-size: 1em;
     font-family: 'Open Sans', sans-serif;
