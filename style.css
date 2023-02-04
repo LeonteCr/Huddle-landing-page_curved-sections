@@ -12,9 +12,9 @@
             - Footer
 */
 
-/* ===============                                   
-    Global styles
-================== */
+        /* ===============                                   
+            Global styles
+        ================== */
 
 * {
     box-sizing: border-box;
@@ -24,6 +24,18 @@ body {
     padding: 1.5em 0 0 0;
     margin: 0;
 }
+
+        /* ==========
+          Typography
+          ==========   */
+
+.front-describe,
+.grow-describe,
+.flowing-describe,
+.user-describe {
+    opacity: .9;
+}
+
 
         /*========
           HEADER 
@@ -74,7 +86,6 @@ body {
 .front-describe {
     font-family: 'Open Sans', sans-serif;
     font-size: 0.8rem;
-    font-weight: 600;
     line-height: 1.3rem;
     margin: 0 auto 4em auto;
     max-width: 590px;
@@ -82,7 +93,7 @@ body {
 
 .front-banner {
     text-align: center;
-    margin: 6.5em auto;
+    margin: 5em auto;
     padding: 0 2.5em;
    
 }
@@ -412,7 +423,7 @@ footer p {
 
 @media (min-width:851px) {
     body {
-        padding: 5rem 0 0 0;
+        padding: 4rem 0 0 0;
     }
 
             /*====== 
