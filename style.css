@@ -330,7 +330,7 @@ form {
     font-size: 1.2rem;
 }
 
-.text-email input:invalid {
+.text-email input:invalid:focus {
     outline:2px solid red;
 }
     
