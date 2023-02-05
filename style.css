@@ -49,36 +49,34 @@ body {
 }
 
 
-.front-bar a {
-    text-decoration: none;
-    font-family: 'Open Sans', sans-serif;
-    color: hsl(322, 100%, 66%); 
-    font-size: .6rem;
-}
-
 .logo {
     width: 25vw;
     max-width: 16rem;
 }
 
 .free-btn {
-    border: none;
     background-color: white;
-    opacity: .7;
-    margin: 0;
+    opacity: .9;
     border: 1px solid hsl(322, 100%, 66%);
     border-radius: 2rem;
-    box-shadow: 2px -2px 5px hsl(324, 37%, 83%) ;
-    padding: 0 2em;
-    font-size: .5rem;
-    height: 1.5rem;
+    box-shadow: 2px 2px 10px hsl(325, 18%, 79%);
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    color: hsl(322, 100%, 66%); 
+    font-size: .6rem;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
 
 .free-btn:hover {
-    opacity: .4;
-    box-shadow: ;
+    opacity: .6;
+    box-shadow: 2px -2px 5px hsl(324, 37%, 83%) ;
     transition: 0.3s;
 }
 
@@ -420,7 +418,7 @@ footer p {
 .attribution { 
     font-size: 11px; 
     text-align: center; 
-    margin: -3em 0 -2em 0; 
+    margin: 2em 0 -2em 0; 
     color: white;
     padding: 2em 0;
     background-color: #00252E;
@@ -608,10 +606,9 @@ footer p {
                 FOOTER
             ================= */
 
-    footer {
+    .footer-section {
         display: flex;
         flex-direction: row-reverse;
-       
         padding: 3em 8em;
     }        
     .footer-left {
