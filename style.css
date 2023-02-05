@@ -63,7 +63,7 @@ body {
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
     color: hsl(322, 100%, 66%); 
-    font-size: .6rem;
+    font-size:2.2vw;
     margin: 0;
     padding: 0.5em 1em;
     text-align: center;
@@ -439,9 +439,9 @@ footer p {
   
 
     .free-btn {
-        width: 8.8rem;
+        
         height: 2.6rem;
-        font-size: .8rem;
+        font-size: 1rem;
         margin-left: 2rem;
     }
     .free-btn a {
